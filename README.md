@@ -1,20 +1,20 @@
 RSServe - A simple static HTML server for Redis (and Ember)
 -
 
-## Binaries
+### Binaries
 Binaries for most major platforms can be found [here](http://adrianfletcher.org/posts/rsserve-a-simply-static-server).
 
-## Pull Requests or other
+### Pull Requests or other
 I'm happy to accept pull requests or shoot me an <a href="mailto:adrian@fletchtechnology.com.au">email</a> if you see any obvious things to be fixed up or added.
 
-## Building RedisStaticServer
+### Building RedisStaticServer
 
 > % go build rsserve.go
 
-## Usage
+### Usage
 > % rsserve -c "path/to/config.json/"
 
-## Example Configuration
+### Example Configuration
 
 ```json
 {
@@ -29,3 +29,6 @@ I'm happy to accept pull requests or shoot me an <a href="mailto:adrian@fletchte
     "http_port": 80
 }
 ```
+
+###  HTML Versioning
+As a user, you can add `?version=prefix` to any requests to automatically get a previous version, so long as it exists in Redis. If it doesn't, the user will get a 404.
