@@ -1,4 +1,4 @@
-A simple static HTML server for Redis (and Ember)
+RSServe - A simple static HTML server for Redis (and Ember)
 -
 
 ## Binaries
