@@ -1,0 +1,11 @@
+{
+	"redis_pass": "",
+	"redis_address": "localhost",
+    "redis_port": 6379,
+
+    "key_prefix": "production",
+    "key_suffix": ":index.html",
+
+    "http_address": "test.com",
+    "http_port": 80
+}
