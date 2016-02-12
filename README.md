@@ -2,14 +2,14 @@ RSServe - A simple static HTML server for Redis (and Ember)
 -
 
 ## Binaries
-Binaries for most major platforms can be found [here](http://adrianfletcher.org/posts/rsserve-a-simply-static-server.
+Binaries for most major platforms can be found [here](http://adrianfletcher.org/posts/rsserve-a-simply-static-server).
 
 ## Building RedisStaticServer
 
 > % go build rsserve.go
 
 ## Usage
-> rsserve -c "path/to/config.json/"
+> % rsserve -c "path/to/config.json/"
 
 ## Example Configuration
 
