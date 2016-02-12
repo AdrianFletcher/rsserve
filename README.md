@@ -31,4 +31,4 @@ I'm happy to accept pull requests or shoot me an <a href="mailto:adrian@fletchte
 ```
 
 ###  HTML Versioning
-As a user, you can add `?version=prefix` to any requests to automatically get a previous version, so long as it exists in Redis. If it doesn't, the user will get a 404.
+As a user, you can add `?version=prefix`, where prefix is some unique versioning key, to any requests to automatically get a previous version, so long as it exists in Redis. If it doesn't, the user will get a 404.
